@@ -97,10 +97,20 @@ public class WeatherContract {
 
     public static final class LocationEntry implements BaseColumns {
         /**
-         * TODO YOUR CODE BELOW HERE FOR QUIZ
+         * DONE: HERE FOR QUIZ
          * QUIZ - 4a - Columns
          * https://www.udacity.com/course/viewer#!/c-ud853/l-1639338560/e-1633698595/m-1633698597
          **/
+        public static final String TABLE_NAME = "location";
+
+
+        public static final String COLUMN_LOCATION_SETTING = "location_setting";
+
+        public static final String COLUMN_CITY_NAME = "city_name";
+
+        public static final String COLUMN_COORD_LAT = "coord_lat";
+
+        public static final String COLUMN_COORD_LONG = "coord_long";
 
         /* TODO Uncomment for
         4b - Adding ContentProvider to our Contract
